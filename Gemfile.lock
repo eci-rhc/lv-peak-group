@@ -1,7 +1,7 @@
 GIT
   remote: git@github.com:eci-rhc/lv-lotvue-core.git
-  revision: 67ed3027cdd965ba32bb44ca3366cd853bd16e6d
-  branch: master
+  revision: 18e98090a1a81ce28adfd3cde91725c750e3b7f0
+  branch: peak_group_master
   specs:
     lotvue_core (1.0.0)
       activerecord-import (~> 1.0.2)
@@ -384,7 +384,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.4)
     multi_xml (0.6.0)
-    mysql2 (0.5.4)
+    mysql2 (0.5.5)
     nested_form (0.3.2)
     net-scp (3.0.0)
       net-ssh (>= 2.6.5, < 7.0.0)
