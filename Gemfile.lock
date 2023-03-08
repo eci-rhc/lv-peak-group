@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:eci-rhc/lv-lotvue-core.git
-  revision: 18e98090a1a81ce28adfd3cde91725c750e3b7f0
+  revision: 4eda1ffc71e1dc8c9dbcaa3917ee72eabb21f32e
   branch: peak_group_master
   specs:
     lotvue_core (1.0.0)
@@ -28,6 +28,7 @@ GIT
       ckeditor (~> 5.1.0)
       climate_control (~> 0.2.0)
       cocaine (~> 0.5.8)
+      cocoon
       coderay (~> 1.1.3)
       coffee-rails (~> 5.0.0)
       coffee-script (~> 2.4.1)
@@ -265,6 +266,7 @@ GEM
     climate_control (0.2.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
+    cocoon (1.2.15)
     coderay (1.1.3)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
@@ -397,7 +399,7 @@ GEM
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rack (2.2.5)
+    rack (2.2.6.3)
     rack-cache (1.12.1)
       rack (>= 0.4)
     rack-contrib (2.3.0)
@@ -459,8 +461,8 @@ GEM
       redis-actionpack (>= 5.0, < 6)
       redis-activesupport (>= 5.0, < 6)
       redis-store (>= 1.2, < 2)
-    redis-store (1.9.1)
-      redis (>= 4, < 5)
+    redis-store (1.9.2)
+      redis (>= 4, < 6)
     ref (2.0.0)
     responders (3.0.1)
       actionpack (>= 5.0)
@@ -500,7 +502,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sshkit (1.21.3)
+    sshkit (1.21.4)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     sucker_punch (3.0.1)
@@ -518,7 +520,7 @@ GEM
       execjs (~> 2.7)
       less-rails (~> 2.8, >= 2.8.0)
       railties (~> 5.0, >= 5.0.1)
-    tzinfo (1.2.10)
+    tzinfo (1.2.11)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -567,4 +569,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   2.2.30
+   2.3.26

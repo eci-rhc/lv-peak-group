@@ -44,8 +44,8 @@ end
 
 namespace :sidekiq do
   task :restart do
-    invoke 'sidekiq:stop'
-    invoke 'sidekiq:start'
+#    invoke 'sidekiq:stop'
+ #   invoke 'sidekiq:start'
   end
 
   before 'deploy:finished', 'sidekiq:restart'
