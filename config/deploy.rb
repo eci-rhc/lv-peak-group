@@ -18,7 +18,7 @@ namespace :deploy do
         within release_path do
           execute :bundle, :exec, 'bundle config --delete deployment'
           execute :bundle, :exec, 'bundle config --delete frozen'
-          execute :bundle, :exec, 'bundle update --source lotvue_core'
+          execute :bundle, :exec, 'bundle update lotvue_core'
           execute :bundle, :exec, 'bundle clean'
           execute :bundle, :exec, 'bundle config frozen true'
         end
